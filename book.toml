@@ -1,0 +1,5 @@
+[book]
+authors = ["Cædrik Labrecque"]
+language = "fr"
+src = "src"
+title = "BCTC"
