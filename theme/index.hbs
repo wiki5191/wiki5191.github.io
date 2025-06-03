@@ -53,6 +53,8 @@
         <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{/if}}
 
+        <script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js"></script>
+
         <!-- Provide site root and default themes to javascript -->
         <script>
             const path_to_root = "{{ path_to_root }}";
@@ -61,6 +63,7 @@
         </script>
         <!-- Start loading toc.js asap -->
         <script src="{{ resource "toc.js" }}"></script>
+
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -332,9 +335,22 @@
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
+
+        
         </script>
         {{/if}}
         {{/if}}
+
+        <script>
+            window.addEventListener('load', function() {
+
+            document.querySelectorAll('.content img').forEach(el => {
+                el.addEventListener('click', (e) => {
+                    Spotlight.show([{src: el.src}], {fullscreen: false, page: false})
+                })
+            });
+        });
+        </script>
 
     </div>
     </body>

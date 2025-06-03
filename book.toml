@@ -5,8 +5,12 @@ src = "src"
 title = "BCTC"
 
 [output.html]
+additional-css = ["custom.css"]
 default-theme = "light"
 
 [preprocessor.yapp]
 
 [preprocessor.classy]
+
+[preprocessor.inline-highlighting]
+default-language = "none"
