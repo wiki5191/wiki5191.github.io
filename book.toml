@@ -3,3 +3,10 @@ authors = ["Cædrik Labrecque"]
 language = "fr"
 src = "src"
 title = "BCTC"
+
+[output.html]
+default-theme = "light"
+
+[preprocessor.yapp]
+
+[preprocessor.classy]
