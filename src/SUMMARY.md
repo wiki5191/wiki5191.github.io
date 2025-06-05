@@ -2,6 +2,7 @@
 
 -   [My First Chapter](my-first-chapter.md)
 -   [Fraxion](fraxion/README.md)
+    -   [Répartition](fraxion/repartition.md)
 -   [Territoire](territoire.md)
 -   [Restrictions](restrictions/README.md)
     -   [Sub-chapter](restrictions/sub-chapter.md)
@@ -21,8 +22,8 @@
     -   [Disponibilités chauffeur](stac/disponibilites-chauffeurs.md)
     -   [Devoirs du chauffeur](stac/devoir-chauffeur.md)
 -   [Flexibus]()
+    -   [Zones](flex/zones.md)
     -   [Pauses](flex/pauses.md)
 -   [CIUSSS](ciusss/README.md)
     -   [Lots]()
     -   [Clients]()
-        [Flexibus]()

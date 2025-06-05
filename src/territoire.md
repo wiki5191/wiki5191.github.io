@@ -2,7 +2,7 @@
 
 Depuis 2019, Taxi Coop 5191 couvre entièrement le territoire de la Communauté métropolitaine de Québec.
 
-![Territoire](images/territoire.png)
+![Territoire](/images/territoire.png)
 
 1. **Agglomération de Québec**, comprend : La Ville de Québec, L’Ancienne-Lorette, Saint-Augustin-de-Desmaures
 2. **MRC de L’Île d’Orléans**, comprend : Sainte-Famille, Saint-Laurent-de-l'Île-d'Orléans, Sainte-Pétronille, Saint-Pierre-de-l'Île-d'Orléans, Saint-François-de-l'Île-d'Orléans, Saint-Jean-de-l'Île-d'Orléans

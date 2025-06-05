@@ -17,14 +17,13 @@ Depuis le 12 septembre 2022, les composantes des tarifs établis par la Commissi
 
 ### Trajet A | De l’aérogare vers le centre-ville de Québec
 
-<div class="warning">
-S'applique dans les deux sens.
-</div>
+> [!PRUDENCE]  
+> S'applique dans les deux sens.
 
 **TARIF JOUR** : 41,40 $ (42,45 $)
 **TARIF NUIT** : 47,60 $ (48,65 $) [^4]
 
-![Trajet A](/images/trajet-a.png)
+![Trajet A](../images/trajet-a.png)
 
 La zone centre-ville de Québec est délimitée comme suit :
 
@@ -35,14 +34,13 @@ La zone centre-ville de Québec est délimitée comme suit :
 
 ### Trajet B | De l’aéroport vers zone Sainte-Foy
 
-<div class="warning">
-Ne s'applique que dans un sens
-</div>
+> [!PRUDENCE]  
+> Ne s'applique **que dans un sens**.
 
 **TARIF JOUR** : 18,15 $ (19,20 $)
 **TARIF NUIT** : 20,85 $ (21,90 $) [^4]
 
-![Trajet B](/images/trajet-b.png)
+![Trajet B](../images/trajet-b.png)
 
 La zone Sainte-Foy est délimitée comme suit :
 

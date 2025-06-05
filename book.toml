@@ -10,7 +10,9 @@ default-theme = "light"
 
 [preprocessor.yapp]
 
-[preprocessor.classy]
+[preprocessor.image-size]
+command = "mdbook-image-size"
 
-[preprocessor.inline-highlighting]
-default-language = "none"
+[preprocessor.alerts]
+
+[output.markdown]

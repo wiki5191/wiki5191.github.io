@@ -36,7 +36,7 @@ jobs:
               run: |
                   curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
                   rustup update
-                  cargo install mdbook mdbook-classy mdbook-yapp mdbook-inline-highlighting
+                  cargo install mdbook mdbook-yapp mdbook-image-size mdbook-alerts
             - name: Setup Pages
               id: pages
               uses: actions/configure-pages@v5

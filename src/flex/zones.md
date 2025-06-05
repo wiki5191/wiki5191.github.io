@@ -1,9 +1,4 @@
-# Pauses
-
--   Il n'est pas possible de modifier une pause si celle-ci est déjà commencée.
-    -   Que ce soit pour la déplacer ou la raccourcir.
-
-## Point GPS des pauses par zone
+# Zones
 
 ### Zone 1 — Val Bélair
 
