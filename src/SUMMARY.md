@@ -1,11 +1,11 @@
 [Introduction](README.md)
+[Formation](formation.md)
 
--   [My First Chapter](my-first-chapter.md)
 -   [Fraxion](fraxion/README.md)
     -   [Répartition](fraxion/repartition.md)
+    -   [Appels](fraxion/appels.md)
 -   [Territoire](territoire.md)
 -   [Restrictions](restrictions/README.md)
-    -   [Sub-chapter](restrictions/sub-chapter.md)
 -   [Réservations]()
 -   [Numéros d\'Ordre](numeros-ordre.md)
 -   [CTQ](ctq/README.md)
