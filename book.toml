@@ -14,5 +14,3 @@ default-theme = "light"
 command = "mdbook-image-size"
 
 [preprocessor.alerts]
-
-[output.markdown]
