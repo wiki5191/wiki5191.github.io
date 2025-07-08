@@ -1,13 +1,27 @@
 [Introduction](README.md)
-[Formation](formation.md)
+
+# Centrale
+
+-   [Formation](formation.md)
+-   [Coopérative](coopérative.md)
+-   [Règles internes](reglement.md)
+-   [Syndicat](syndicat.md)
+-   [Postes](postes.md)
+
+# Répartition
 
 -   [Fraxion](fraxion/README.md)
-    -   [Répartition](fraxion/repartition.md)
+    -   [Menu principal](fraxion/menu.md)
     -   [Appels](fraxion/appels.md)
--   [Territoire](territoire.md)
--   [Restrictions](restrictions/README.md)
+    -   [Restrictions](fraxion/restrictions.md)
 -   [Réservations]()
--   [Numéros d\'Ordre](numeros-ordre.md)
+-   [Chicoutimi]()
+-   [Numéros d'Ordre](numeros-ordre.md)
+
+# Taxi
+
+-   [Territoire](territoire/README.md)
+    -   [Zones](territoire/zones.md)
 -   [CTQ](ctq/README.md)
     -   [Tarifs](ctq/tarifs.md)
     -   [Taximètre](ctq/taximetre.md)
@@ -27,3 +41,17 @@
 -   [CIUSSS](ciusss/README.md)
     -   [Lots]()
     -   [Clients]()
+-   [CHUQ](chuq/README.md)
+    -   [Taux fixes](chuq/taux.md)
+    -   [Transport ambulancier](chuq/ambulance.md)
+
+---
+
+# Services
+
+-   [CAA](caa/README.md)
+    -   [Assistance Vélo](caa/velo.md)
+
+# Procédures
+
+-   [Annonces générales](procédures/annonces.md)

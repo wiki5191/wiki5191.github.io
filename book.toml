@@ -5,6 +5,7 @@ src = "src"
 title = "BCTC"
 
 [output.html]
+mathjax-support = true
 additional-css = ["custom.css"]
 default-theme = "light"
 

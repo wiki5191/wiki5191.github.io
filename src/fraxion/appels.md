@@ -1,4 +1,4 @@
-# Appels
+# Réception des appels
 
 ![appel-1](../images/appel-1.png)
 
@@ -66,6 +66,23 @@ La fenête principale permet d'inscrire toutes les informations nécessaire à l
 -   **[F6], envoi** : Envoie l'appel dans le système de répartition. Par sécurité, il est impossible d'envoyer un appel sans qu'il soit en **mode adresse confirmée**.
 -   **[F7] et [F8]** : Nous n'utilisons pas ces raccourcis.
 -   **[F9], réservation ou priorité** : Permet d'envoyer un appel prioritaire dans le système de répartition, ou de programmer une réservation.
+-   **[F11], message** : Permet d'envoyer une [annonce générale](/procédures/annonces.md) ou un message tablette à une voiture.
+
+### Répartition ou véhicule
+
+-   **Type de répartition** : Permet de choisir si l'appel sera réparti automatiquement par le système ou manuellement par le répartiteur. Par défaut, tous les appels sont <ins>(et doivent être)></ins> envoyés de façon automatique.
+-   **Type de véhicule** : Permet de choisir quel type de véhicule envoyé. Auto (ou berline), Station (ou VUS), Van. Au besoin, il est également possible d'identifier le nombre de personnes.
+
+## <span style="color:#cb6ce6">Magenta, restrictions</span>
+
+Lorsqu'une restriction est cochée, l'appel sera transmis uniquement aux véhicules ou chauffeurs qui acceptent de desservir ce type d'appel. Elles agissent comme un filtre.
+
+Par exemple, si une cliente demande un taxi avec son chat, le téléphoniste doit cocher la case `Chat`. L'appel sera alors proposé seulement aux chauffeurs qui acceptent les chats.
+
+Vous trouverez une description complète de toutes les restrictions [dans ce chapitre](restrictions.md).
+
+> [!IMPORTANT]
+> test
 
 ## <span style="color:#7ed957">Herbe, dernières adresses</span>
 
@@ -79,8 +96,35 @@ Ces adresses sont sauvegardées automatiquement chaque fois qu'un appel associé
 > [!ASTUCE]
 > Il est recommandé de toujours jeter un coup d'oeil à cette fenêtre, elle nous permet de sauver beaucoup de temps et d'envoyer un appel sans se tromper dans l'adresse.
 
+## <span style="color:#ffbd59">Pêche, options spéciales</span>
+
 ## <span style="color:#ff66c4">Rose, modules</span>
+
+### Collectif
+
+![appel-4](../images/appel-4.png =x400)
+
+Ce module permet de réserver des transports collectifs. **Nous n'utilisons pas ce système présentement.**
+
+### Clients
+
+| Recherche                         | Compte client                     |
+| --------------------------------- | --------------------------------- |
+| ![appel-5](../images/appel-5.png) | ![appel-6](../images/appel-6.png) |
+
+Les dossiers/comptes clients nous permettent de créer des ["numéros d'ordre"](/numeros-ordre.md). Ceux-ci permettent d'envoyer des appels qui seront facturés plus tard, ce qui permet à certains de nos clients (entreprises, institutions, etc.) d’offrir un service de transport à leurs usagers ou employés sans que ces derniers aient à payer le taxi eux-mêmes.
+
+-   Chaque numéro d'ordre est identifié par un chiffre (ex : 30669). Dans la fenêtre de recherche, il est également possible de trouver un compte client en utilisant le nom d'un usager, son numéro de téléphone, etc.
+-   Un numéro d'ordre peut expirer. Dans ce cas, l'entente initiale n'est plus valide et le client doit se référer à son supérieur ou la personne responsable qui lui a donné le numéro d'ordre.
+    -   Si une personne responsable souhaite renouveller son entente et son numéro d'ordre, elle doit être référée à la Direction de la centrale.
+-   **Personne pré-enregistrée à bord** : Permet d'identifier le client ou l'usager qui prendra le taxi. Certains numéros d'ordre possèdent une liste pré-établie de personnes autorisées : il faut s'y réferrer et sélectionner la bonne personne. S'il n'y a personne dans la liste, il faut simplement inscrire le <ins>nom complet du client</ins>.
+-   **Scénarios autorisés** : Chaque numéro d'ordre est unique et peut être paramétré selon des itinéraires précis. Il est également possible qu'aucun scénario ne soit programmé d'avance et que toutes les adresses de départ et de destination soient autorisées.
+    -   <ins>Départ flexible -> Destination flexible</ins> permet par la suite de sélectionner n'importe quelle adresse valide.
+-   **Départ/Destination** : Selon le scénario, l'adresse de départ et de destination seront déjà sélectionner. S'il s'agit d'un scénario flexible, il faudra ajouter les adresses en appuyant sur le ![icon plus](../images/icon-plus.png) et en effectuant une recherche par numéro civique et nom de rue.
+-   **Commentaires additionnels** : Permet d'ajouter des détails supplémentaires à l'appel. Ils seront ajoutés à l'appel comme s'ils avaient été inscrits dans la section "remarque" et pourront être lus par le chauffeur.
+-   **Options** : Comme pour un appel, permet de sélectionner le type de véhicule, le nombre de personne, le nombre de véhicules, la date et l'heure du transport.
+-   **Montant de la course** : Certains scénarios peuvent avoir un ["taux fixe"](/ctq/tarifs.html#fixe) selon le scénario. Il sera ajouté automatiquement à la sélection du scénario, autrement il n'y a pas de taux fixe.
 
 [^1]: Taxi Coop 5191 s'occupe également de la répartition de la compagnie Taxi Unis à [Chicoutimi]().
 [^2]: Il est possible de changer la date et l'heure d'un appel de deux façons : directement lors de sa saisie, ou en envoyant un appel avec la touche **F9**.
-[^3]:
+[^3]: Si un répartiteur ne trouve pas l'adresse du client dans notre système, il doit transférer le client à un poste opérateur qui pourra faire des recherches supplémentaires et forcer une adresse au besoin. <ins>Seuls les opérateurs ont le droit de forcer des adresses.</ins>

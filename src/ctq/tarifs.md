@@ -55,7 +55,9 @@ Une carte intéractive est fournie par la Commission des transports afin de vér
 
 ### Fixe
 
-Il existe certains tarifs fixes (ou « taux fixes ») selon des situations particulières. Il peut s’agir d’ententes formulées entre 5191 et un client, ou d’autres sortes de contrat. Ces taux fixes sont, en règle générale, générés automatiquement grâce à des Numéros d’Ordre.
+Il existe certains tarifs fixes (ou « taux fixes ») selon des situations particulières. Il peut s’agir d’ententes formulées entre 5191 et un client, d'un service spécial ou d’autres sortes de contrat. Ces taux fixes sont, en règle générale, générés automatiquement grâce à des Numéros d’Ordre.
+
+-   Vous trouverez tous les taux fixes relatifs aux service spéciaux directement dans leur chapitre dédié.
 
 [^1]: Au montant de départ s’ajoute une redevance de 0,90 $ + taxes (1,05 $) affectée au programme d’indemnisation des anciens titulaires de permis de propriétaire de taxi à la suite de l’adoption de la Loi concernant le transport rémunéré de personnes par automobile. Un autocollant permet d’expliquer à la clientèle ce coût supplémentaire pour chaque course.
 [^2]: Course débutant à partir de 5 h jusqu’à 22 h 59.

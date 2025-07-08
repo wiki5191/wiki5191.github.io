@@ -5,7 +5,7 @@
 Il existe deux sortes de taximètres :
 
 -   Taximètre "traditionnel" dit physique, directement connecté au moteur du véhicule et alimenté à l'aide d'un fusible.
-    -   Ce taximètre est relié à la tablette grâce au bluetooth et empêche le chauffeur s'éloigner du véhicule, autrement son application Fraxion ne fonctionnera plus.
+    -   Ce taximètre est relié à la tablette grâce au bluetooth du véhicule et empêche le chauffeur de s'éloigner de la voiture, autrement son application Fraxion ne fonctionnera plus.
 -   Taximètre "virtuel" directement paramètré dans la tablette grâce au logiciel Fraxion.
 
 ## Mandataires
