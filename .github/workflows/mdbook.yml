@@ -34,7 +34,7 @@ jobs:
             - uses: actions/checkout@v4
 
             - name: Make Perl script executable
-              run: chmod +x scripts/version-commit
+              run: chmod +x scripts/version-preprocessor
 
             - name: Install mdBook
               run: |
