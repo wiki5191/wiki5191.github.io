@@ -35,7 +35,7 @@
     -   [Tournées](stac/tournees.md)
     -   [Disponibilités chauffeur](stac/disponibilites-chauffeurs.md)
     -   [Devoirs du chauffeur](stac/devoir-chauffeur.md)
--   [Flexibus]()
+-   [Flexibus](flex/README.md)
     -   [Zones](flex/zones.md)
     -   [Pauses](flex/pauses.md)
 -   [CIUSSS](ciusss/README.md)
@@ -55,3 +55,5 @@
 # Procédures
 
 -   [Annonces générales](procédures/annonces.md)
+-   [Chien d'assistance](procédures/chiens-assistance.md)
+-   [Inspecteurs](procédures/inspecteurs.md)

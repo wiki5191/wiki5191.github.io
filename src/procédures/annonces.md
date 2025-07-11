@@ -2,11 +2,14 @@
 
 ![f11 annonce générale](../images/f11-annonce.png)
 
-## Il est permis { .herbe }
+## Il est obligatoire { .herbe }
+
+-   D'envoyer une annonce générale lorsqu'un inspecteur demande les informations d'un chauffeur. [Référez-vous à la procédure concernant les inspecteurs](procédures/inspecteurs.md).
+
+## Il est permis { .peche }
 
 -   D'envoyer une annonce générale pour prévenir de l'arrivée d'un train **VIA Rail**.
 -   D'envoyer une annonce générale pour prévenir d'un **accident important** bloquant un axe de circulation principale.
--   D'envoyer une annonce générale pour
 
 ## Il n'est pas / ou n'est plus permis { .corail }
 

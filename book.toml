@@ -4,14 +4,20 @@ language = "fr"
 src = "src"
 title = "BCTC"
 
+[build]
+use-default-preprocessors = true 
+
 [output.html]
 mathjax-support = true
 additional-css = ["custom.css"]
 default-theme = "light"
+git-repository-url = "https://github.com/caezd/wiki5191"
 
-[preprocessor.yapp]
+
 
 [preprocessor.image-size]
 command = "mdbook-image-size"
 
 [preprocessor.alerts]
+
+[preprocessor.yapp]
