@@ -1,0 +1,76 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use JSON;
+
+# mdBook preprocessor: inject per-chapter Git version footer
+# Enhanced to prepend 'src/' if needed when source_path is relative
+
+# Utility to run a command and capture its output
+sub runit {
+    my ($cmd) = @_;
+    my $out = qx{$cmd 2>&1};
+    chomp $out;
+    return $out;
+}
+
+# Read and parse mdBook JSON input: [Context, Book]
+my $raw  = do { local $/; <STDIN> };
+my $data = eval { decode_json($raw) };
+if ($@) {
+    die "[ERROR] Failed to parse JSON: $@";
+}
+# Validate structure
+unless (ref $data eq 'ARRAY' && @$data == 2 && ref $data->[1] eq 'HASH') {
+    die "[ERROR] Expected input as [Context, Book]\n";
+}
+
+# Extract Book object
+my (undef, $book) = @$data;
+
+# Recursive injection function
+sub inject_footer {
+    my ($items) = @_;
+    return unless ref $items eq 'ARRAY';
+    for my $item (@$items) {
+        next unless ref $item eq 'HASH' && exists $item->{Chapter};
+        my $ch    = $item->{Chapter};
+        my $title = $ch->{name} // '(no title)';
+
+        # Determine source path from mdBook context
+        my $src = $ch->{source_path} // '';
+        chomp $src;
+
+        # If initial path exists relative to current dir, good, else try with 'src/' prefix
+        if ($src) {
+            unless (-e $src) {
+                my $pref = "src/$src";
+                if (-e $pref) {
+                    $src = $pref;
+                }
+            }
+        }
+
+        # Skip if source missing or file doesn't actually exist
+        unless ($src && -e $src) {
+            warn "[WARN] No valid source file for chapter '$title' (tried '$src'); skipping injection.\n";
+            next;
+        }
+
+        # Get last commit short hash and commit date for this file
+        my $commit = runit("git log -1 --format='%h' -- \"$src\"");
+        my $date   = runit("git log -1 --format='%cd' --date=format-local:'%d/%m/%Y %H:%M' -- \"$src\"");
+
+        # Append Markdown footer
+        my $footer = sprintf("\n\n---\n*Version : `%s` (%s)*\n", $commit, $date);
+        $ch->{content} .= $footer;
+
+        # Recurse into nested sections
+        inject_footer($ch->{sub_items}) if exists $ch->{sub_items};
+    }
+}
+
+inject_footer($book->{sections});
+
+# Output modified Book JSON as expected by mdBook
+print encode_json($book);

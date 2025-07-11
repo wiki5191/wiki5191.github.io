@@ -11,11 +11,11 @@ use-default-preprocessors = true
 mathjax-support = true
 additional-css = ["custom.css"]
 default-theme = "light"
-git-repository-url = "https://github.com/caezd/wiki5191"
+git-repository-url = "https://github.com/wiki5191/wiki5191.github.io"
 
 [preprocessor.version]
-command = "perl scripts/version-preprocessor"
 renderers = ["html"]
+command   = "perl version-commit"
 
 [preprocessor.image-size]
 command = "mdbook-image-size"
