@@ -13,7 +13,9 @@ additional-css = ["custom.css"]
 default-theme = "light"
 git-repository-url = "https://github.com/caezd/wiki5191"
 
-
+[preprocessor.version]
+command = "perl scripts/version-preprocessor"
+renderers = ["html"]
 
 [preprocessor.image-size]
 command = "mdbook-image-size"
